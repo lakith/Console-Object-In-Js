@@ -38,28 +38,7 @@ console.log("numbers (log) = ", numbers);
 // only one parameter. 
 console.dir("numbers (dir) = ", numbers); 
 }
-
-Person.prototype.nationality = "English";
 ```
-
-
-## Adding Properties and Methods to Objects :tada:
-
-Sometimes you want to add new properties (or methods) to all existing objects of a given type.
-
-Sometimes you want to add new properties (or methods) to an object constructor.
-
-### Using the **prototype** Property
-
-The JavaScript prototype property allows you to add new properties to object constructors:
-
-```javascript
-function Person(first, last, age, eyecolor) {
-  this.firstName = first;
-  this.lastName = last;
-  this.age = age;
-  this.eyeColor = eyecolor;
-}
 
 ![output in browser console](https://github.com/lakith/Console-Object-In-Js/blob/master/images/Capture.PNG?raw=true)
 
