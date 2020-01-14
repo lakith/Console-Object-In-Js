@@ -40,6 +40,11 @@ console.dir("numbers (dir) = ", numbers);
 }
 ```
 
+output in browser console
+
 ![output in browser console](https://github.com/lakith/Console-Object-In-Js/blob/master/images/Capture.PNG?raw=true)
+
+
+output in cmd
 
 ![output in cmd](https://github.com/lakith/Console-Object-In-Js/blob/master/images/Capture2.PNG?raw=true)
